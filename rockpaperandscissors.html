@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="rockpaperandscissors.css" />
+  </head>
+  <body>
+    <h1 class="bg-dark text-white p-2 mb-2">Rock Paper and Scissors Game</h1>
+    <div class="choices">
+      <div class="choice mx-5" id="rock">
+        <img src="stone.jpg" alt="stone img" />
+        <p class="fs-1">Rock</p>
+      </div>
+      <div class="choice mx-2" id="paper">
+        <img src="paper.webp" alt="paper img" />
+        <p class="fs-1">paper</p>
+      </div>
+      <div class="choice mx-2" id="scissors">
+        <img src="scissors.jpg" alt="scissors img" />
+        <p class="fs-1">scissors</p>
+      </div>
+    </div>
+    <div class="score-board">
+      <div class="score mx-5">
+        <p id="user-score">0</p>
+        <p class="fs-1">You</p>
+      </div>
+      <div class="score mx-5">
+        <p id="comp-score">0</p>
+        <p class="fs-1">Comp</p>
+      </div>
+    </div>
+    <div class="msg-container">
+      <p class="msg fs-4">start the game</p>
+    </div>
+    <div>
+      <button class="resetbtn">Reset Game</button>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="rockpaperandscissors.js"></script>
+  </body>
+</html>
